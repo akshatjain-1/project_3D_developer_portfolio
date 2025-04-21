@@ -14,6 +14,7 @@ import {
   mongodb,
   git,
   figma,
+  cancer,
   docker,
   meta,
   starbucks,
@@ -198,9 +199,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "JustShop",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a static-website for a local garment retailer, showcasing their products and services. The website features a user-friendly interface, responsive design, and is optimized for search engines.",
     tags: [
       {
         name: "react",
@@ -219,9 +220,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Breast Cancer Predictor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that utilizes machine learning algorithms to predict the likelihood of breast cancer in patients based on various medical parameters like. The application provides a user-friendly interface for inputting data and displays the prediction results.",
     tags: [
       {
         name: "react",
@@ -236,7 +237,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: cancer,
     source_code_link: "https://github.com/",
   },
   {
