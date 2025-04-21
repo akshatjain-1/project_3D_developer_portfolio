@@ -24,6 +24,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  java,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -66,6 +68,14 @@ const technologies = [
     icon: html,
   },
   {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
     name: "CSS 3",
     icon: css,
   },
@@ -106,13 +116,10 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
+  
 ];
 
 const experiences = [
@@ -259,6 +266,69 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "JustShop",
+    description:
+      "Developed a static-website for a local garment retailer, showcasing their products and services. The website features a user-friendly interface, responsive design, and is optimized for search engines.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "JustShop",
+    description:
+      "Developed a static-website for a local garment retailer, showcasing their products and services. The website features a user-friendly interface, responsive design, and is optimized for search engines.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "JustShop",
+    description:
+      "Developed a static-website for a local garment retailer, showcasing their products and services. The website features a user-friendly interface, responsive design, and is optimized for search engines.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
     source_code_link: "https://github.com/",
   },
 ];

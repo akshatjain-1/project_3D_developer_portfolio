@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import cancer from "./cancer.png";
+import java from "./java.png";
+import python from "./python.png";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   jobit,
   tripguide,
   cancer,
+  java,
+  python
 };
